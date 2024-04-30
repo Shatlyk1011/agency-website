@@ -78,6 +78,7 @@ export const RADIO_FIELDS = [
   {
     title: 'What service do you need?',
     classes: 'mr-8',
+    type: 'service',
     radioArray: [
       { name: 'Design / branding', value: '1' },
       { name: 'Web development', value: '2' },
@@ -89,6 +90,7 @@ export const RADIO_FIELDS = [
   {
     title: 'What is your project budget?',
     classes: '',
+    type: 'budget',
     radioArray: [
       { name: '10000TMT - 20000TMT', value: '5' },
       { name: '20000TMT - 30000TMT', value: '6' },
@@ -99,6 +101,7 @@ export const RADIO_FIELDS = [
   {
     title: 'Примерно, сколько страниц будет иметь ваш проект?',
     classes: 'mr-8',
+    type: 'pages',
     radioArray: [
       { name: 'Меньше 5-ти', value: '9' },
       { name: '6-10', value: '10' },
@@ -109,6 +112,7 @@ export const RADIO_FIELDS = [
   {
     title: 'Насколько быстро вам нужен проект?',
     classes: '',
+    type: 'quickness',
     radioArray: [
       { name: 'Максимально быстро', value: '13' },
       { name: 'High prio (меньше 3х недель)', value: '14' },
